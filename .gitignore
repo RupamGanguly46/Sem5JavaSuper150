@@ -4,7 +4,7 @@ out/
 !**/src/test/**/out/
 
 .idea/
-Sem5JavaSuper150.iml
+*.iml
 
 ### Eclipse ###
 .apt_generated
