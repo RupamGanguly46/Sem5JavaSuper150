@@ -81,7 +81,7 @@ public class CreateTreeUsingPreorderAndInorder {
                 }
             }
 
-            System.out.println();
+            System.out.println("");
         }
 
     }
