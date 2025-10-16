@@ -2,8 +2,11 @@ package MonuBhaiyaPractice.Lec49;
 
 public class KnapsackZeroOne {
     public static void main(String[] args){
+        @SuppressWarnings("unused")
         int cap = 4;
+        @SuppressWarnings("unused")
         int[] wt = {1, 2, 3, 2, 2};
+        @SuppressWarnings("unused")
         int[] val = {8, 4, 0, 5, 3};
     }
     public static int Knapsack(int[] wt, int[] val, int cap, int i){

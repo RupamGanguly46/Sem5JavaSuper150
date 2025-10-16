@@ -7,6 +7,7 @@ public class BSTree {
         Node right;
     }
 
+    @SuppressWarnings("unused")
     private Node root;
     
     public BSTree(int[] arr) {

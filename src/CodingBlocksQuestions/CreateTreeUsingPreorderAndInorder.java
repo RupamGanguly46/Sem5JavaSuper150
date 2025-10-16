@@ -30,8 +30,9 @@ public class CreateTreeUsingPreorderAndInorder {
             Node right;
         }
 
-        private Node root;
-        private int size;
+    private Node root;
+    @SuppressWarnings("unused")
+    private int size;
 
         public BinaryTree(int[] pre, int[] in) {
             this.root = this.construct(pre, 0, pre.length - 1, in, 0, in.length - 1);
